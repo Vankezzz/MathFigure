@@ -1,0 +1,205 @@
+/* "*" - выбирает все элементы на сайте */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f7fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Montserrat;
+}
+.wrapper{
+    background: ffffff;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar{
+    background: #2c4364;
+    width: 370px;
+    height: 1500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about-me-container{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.my-photo{
+    width: 370px;
+    
+}
+.contacts-container{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.contacts-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8d8d91;
+}
+.contacts-link-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+.tech-skils-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.tech-skils-container{
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.tech-skils-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e4630e;
+    margin-left: 15px;
+}
+.tech-skils-text{
+    color: #ffffff;
+}
+.soft-skils-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.soft-skils-container{
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.soft-skils-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e4630e;
+    margin-left: 15px;
+}
+.soft-skils-text{
+    color: #ffffff;
+}
+.about-me-profession{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    
+}
+.about-me-name{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.about-me-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+    color: #595959;
+}
+.about-me-info-container{
+    margin-bottom: 65px;
+}
+.projects-container{
+    margin-bottom: 55px;
+}
+.about-me-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.projects-link{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.projects-name{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.projects-item{
+    font-weight: 700;
+    margin-left: 17px;
+}
+.work-experience-profession{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.work-experience-profession-company{
+    color: #ff6b08;
+    
+}
+.work-experience-time{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.work-experience-divider{
+    color: black;
+    font-weight: 700;
+}
+.work-experience-duties{
+    margin-top: 14px;
+    margin-left: 17px;
+}
+.work-experience-duties-item{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.company-container{
+    margin-bottom: 30px;
+}
+.education-name{
+    color: #ff6b08;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.education-profession{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
