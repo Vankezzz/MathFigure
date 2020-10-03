@@ -13,6 +13,13 @@ namespace MathFigure.Models
         public string Type { get; private set; }
         public List<double> SidesLength { get; private set; }
 
+        /// <summary>
+        /// Create an instance of Triangle
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="firstSide"></param>
+        /// <param name="secondSide"></param>
+        /// <param name="thirdSide"></param>
         public Triangle(string title, double firstSide,double secondSide,double thirdSide)
         {
             Title = title;

@@ -9,7 +9,11 @@ namespace MathFigure.Models
     {
         public string Title { get; private set; }
         public List<Dots> Dots { get; private set; }
-
+        /// <summary>
+        /// Create any figure what has coordinates (dots) of vertices
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="dots"></param>
         public AnyFigures(string title, List<Dots> dots)
         {
             Title = title;

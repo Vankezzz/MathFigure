@@ -10,7 +10,11 @@ namespace MathFigure.Models
         public double Radius { get; private set; }
 
         public string Title { get; private set; }
-
+        /// <summary>
+        /// Create an instance of Circle
+        /// </summary>
+        /// <param name="title"></param>
+        /// <param name="radius"></param>
         public Circle(string title,double radius)
         {
             Radius = radius;
